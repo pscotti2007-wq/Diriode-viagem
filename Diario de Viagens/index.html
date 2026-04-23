@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diário do Capitalismo - Das Amizades</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+        <li><a href="#capitalismo"><i class="fas fa-coins"></i> Capitalismo</a></li>
+        <li><a href="#discord"><i class="fab fa-discord"></i> Discord</a></li>
+        <li><a href="#membros"><i class="fas fa-users"></i> Membros</a></li>
+        <li><a href="#dicas"><i class="fas fa-lightbulb"></i> Dicas</a></li>
+        <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="sobre">
+      <div class="container">
+        <h1 id="titulo">
+          <i class="fas fa-heart icone-animado"></i> Minhas amizades
+        </h1>
+        <button onclick="mudarTitulo()">Mudar título</button>
+
+        <p>A maioria das minhas amizades já tem mais de dez anos. Me sinto orgulhoso disso, já que muitas pessoas não
+          têm essa sorte. Aqui estão duas coisas que mantenho com meus amigos há anos e gostaria de compartilhar.</p>
+      </div>
+    </section>
+
+    <section id="capitalismo">
+      <div class="container">
+        <h2>Capitalismo</h2>
+
+        <p id="textoCapitalismo">Uma das sete maravilhas da internet: um grupo de WhatsApp criado em 7 de setembro de
+          2021 com o objetivo de continuar o legado do "Ednaldo Pereira".</p>
+        <button id="btnTexto">Alterar texto</button>
+
+        <p><strong>Imagem da capa:</strong></p>
+        <img src="./Imagens/Capa capitalismo.jpeg" alt="Capa Capitalismo">
+      </div>
+    </section>
+
+    <section id="discord">
+      <div class="container">
+        <h2><i class="fab fa-discord"></i> Discord</h2>
+
+        <p>O famoso Discord, onde acontecem jogatinas e várias outras histórias memoráveis.</p>
+        <p>Passe o mouse abaixo:</p>
+        <p><strong>Imagem da capa:</strong></p>
+        <img id="imgDiscord" src="Imagens/capa discord melhorada.jpg" alt="Capa Discord">
+      </div>
+    </section>
+
+    <section id="membros">
+
+      <div class="container">
+
+        <h2>Galeria de Membros</h2>
+
+        <h5>Digite seu nome de membro</h5>
+
+        <input type="text" id="inputNome" placeholder="Digite seu nome(O melhor é pablo :D)">
+        <button onclick="mostrarNome()">Enviar</button>
+        <p id="saida"></p>
+
+        <div class="grid">
+          <img src="./Imagens/pabloscotti.jpeg" alt="Pablo Scotti">
+          <img src="./Imagens/kaio.jpeg" alt="Kaio Eduardo">
+          <img src="./Imagens/João alberto.jpeg" alt="João Alberto">
+          <img src="./Imagens/Bruno.jpeg" alt="Bruno">
+          <img src="./Imagens/Jeferson.jpeg" alt="Jefferson">
+          <img src="./Imagens/Braian Amaral.jpeg" alt="Braian Amaral">
+          <img src="./Imagens/Davi.jpeg" alt="Davi">
+          <img src="./Imagens/inhã.jpeg" alt="Inha">
+          <img src="./Imagens/braianiuri.jpeg" alt="Braian Iuri">
+          <img src="./Imagens/willian.jpeg" alt="Willian">
+          <img src="./Imagens/luan.jpeg" alt="Luan">
+          <img src="./Imagens/kaue.jpeg" alt="Kauê">
+          <img src="./Imagens/fantini.jpeg" alt="Fantini">
+          <img src="./Imagens/elitinho.jpeg" alt="Elitinho">
+          <img src="./Imagens/laura.jpeg" alt="Laura">
+          <img src="./Imagens/ariel pai.jpeg" alt="Ariel">
+          <img src="./Imagens/prado.jpeg" alt="Prado">
+          <img src="./Imagens/pablo henrique.jpeg" alt="Pablo Henrique ">
+        </div>
+      </div>
+
+      <div class="container">
+        <h2>Fotos</h2>
+        <p>Essas fotos são parte de uma brincadeira na qual cada menbro do grupo deveria mandar foto de outro menbro,
+          deste modo surjiram algumas perólas.</p>
+      </div>
+
+      <div class="container">
+        <h2>Especial</h2>
+        <p>Cada uma destas fotos guarda um pequeno lugar na minha memoria de como as vezes simples momentos proporcionam
+          tantas risadas.</p>
+      </div>
+    </section>
+
+    <section id="dicas">
+      <div class="container">
+        <h2>Dicas e Aprendizados sobre a amizade</h2>
+        <ul>
+          <li>Respeite sempre seus companheiros.</li>
+          <li>Evite tocar em assuntos que seus amigos não gostem.</li>
+          <li>Independente do que voce ou eles achem fale sempre a verdade.</li>
+          <li>Seja alguem que honre o grupo.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 - Diário de Amizades - Pablo Scotti</p>
+  </footer>
+
+  <script src="script.js"></script>/* --- ESSA LINHA ME FEZ ENCARAR ESTA TELA 30 MNTS ATRAS DE UM ERRO...*/
+
+</body>
+
+</html>
